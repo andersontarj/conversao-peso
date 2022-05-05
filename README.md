@@ -32,9 +32,7 @@ docker container ls
 
 Terá uma saída igual a abaixo:
 
-| CONTAINER ID | IMAGE                         | COMMAND                | CREATED        | STATUS        | PORTS                                     | NAMES         |
-| ------------ | ----------------------------- | ---------------------- | -------------- | ------------- | ----------------------------------------- | ------------- |
-| 2dbcb1793683 | andersontarj/conversaopeso:v1 | "dotnet ConversaoPes…" | 13 minutes ago | Up 13 minutes | 0.0.0.0:8888->5000/tcp, :::8888->5000/tcp | conversaopeso |
+![Diagrama](./img/contlist.png)
 
 Após a execução da imagem **andersontarj/conversaopeso** abra o navegador de sua preferencia e digite <http://localhost:8888>
 
